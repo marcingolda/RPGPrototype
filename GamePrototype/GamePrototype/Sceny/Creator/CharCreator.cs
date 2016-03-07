@@ -56,7 +56,6 @@ namespace GamePrototype
 
         public void Draw()
         {
-            String tekst = "Ekran tworzenia postaci, narazie zionie pustką otchłani";
             int x = 75;
             int y = 75;
             spriteBatch.DrawString(font, "Imię: " + imie, Game1.Skaluj(new Vector2(x, y)), Color.White, 0F, Vector2.Zero, Game1.Skala.X, SpriteEffects.None, 0F);

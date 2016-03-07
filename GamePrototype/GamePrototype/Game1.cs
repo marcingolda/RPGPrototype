@@ -49,7 +49,7 @@ namespace GamePrototype
             //graphics.PreferredBackBufferWidth = 1920;
             //graphics.PreferredBackBufferHeight = 1080;
 
-            graphics.IsFullScreen = true;
+           // graphics.IsFullScreen = true;
         }
 
         protected override void Initialize()
@@ -104,7 +104,7 @@ namespace GamePrototype
                     break;
             }
 
-            audio.Update();
+            //audio.Update();
 
             base.Update(gameTime);
         }

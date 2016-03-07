@@ -92,6 +92,7 @@
     <Compile Include="Sceny\TitleScreen.cs" />
     <Compile Include="Shared\Sprite.cs" />
     <Compile Include="Sceny\Game\TextManager.cs" />
+    <Compile Include="Zmienne.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

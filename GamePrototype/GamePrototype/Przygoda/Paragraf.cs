@@ -21,13 +21,21 @@ namespace GamePrototype.Przygoda
             textManager = tekstManager;
         }
         
-        internal static void Update(bool isDirect = false)
+        protected static void Update(bool isDirect = false)
         {
             if(!isDirect)
                 text = GetText(text);
             textManager.GetParagraph(text, image, wybory, actual);
         }
-        internal static String GetText(String number)
+
+        protected static void Update(string extra)
+        {
+            text = GetText(text);
+            text = extra + "/n" + text;
+            textManager.GetParagraph(text, image, wybory, actual);
+
+        }
+        static String GetText(String number)
         {
             Console.WriteLine(number);
             String temp;

@@ -28,9 +28,23 @@ namespace GamePrototype.Przygoda
             image = "";
             text = "gospoda/kosci1";
             wybory = new List<Choice>();
-            wybory.Add(new Choice("gospoda/kosci-zagraj", actual));
+            wybory.Add(new Choice("gospoda/kosci-zagraj", KosciGra));
             wybory.Add(new Choice("gospoda/kosci-odejdz", actual));
             Update();
+        }
+
+        internal static void KosciGra()
+        {
+            actual = KosciGra;
+            image = "";
+            text = "gospoda/kosci1";
+            if (Zmienne.rozegraneGry < 3)
+            {
+                int x = 2;
+                int y = 3;
+                if (x < y) 
+                    Update("Przejebałeś");
+            }
         }
     }
 }
