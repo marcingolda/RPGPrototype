@@ -16,9 +16,20 @@ namespace GamePrototype.Przygoda
             wybory = new List<Choice>();
             wybory.Add(new Choice("gospoda/karczmarz", actual));
             wybory.Add(new Choice("gospoda/gora", actual));
-            wybory.Add(new Choice("gospoda/kosci", actual));
+            wybory.Add(new Choice("gospoda/kosci", Kosci));
             wybory.Add(new Choice("gospoda/plotki", actual));
             wybory.Add(new Choice("gospoda/wyjdz", actual));
+            Update();
+        }
+
+        internal static void Kosci()
+        {
+            actual = Kosci;
+            image = "";
+            text = "gospoda/kosci1";
+            wybory = new List<Choice>();
+            wybory.Add(new Choice("gospoda/kosci-zagraj", actual));
+            wybory.Add(new Choice("gospoda/kosci-odejdz", actual));
             Update();
         }
     }

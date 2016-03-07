@@ -408,6 +408,24 @@
       <Name>kosci</Name>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Text\gospoda\kosci1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>kosci1</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Text\gospoda\kosci-zagraj.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>kosci-zagraj</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Text\gospoda\kosci-odejdz.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>kosci-odejdz</Name>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

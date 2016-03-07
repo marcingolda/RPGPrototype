@@ -45,7 +45,7 @@ namespace GamePrototype
         {
             if (next.IsClicked(mouseState))
             {
-                game1.hero = new Character(imie, statystyki[0].Wartosc, statystyki[1].Wartosc, statystyki[2].Wartosc, statystyki[3].Wartosc, statystyki[4].Wartosc, statystyki[5].Wartosc, statystyki[6].Wartosc);
+                Hero.NewHero(imie, statystyki[0].Wartosc, statystyki[1].Wartosc, statystyki[2].Wartosc, statystyki[3].Wartosc, statystyki[4].Wartosc, statystyki[5].Wartosc, statystyki[6].Wartosc);
                 game1.Zmiana(Scena.MainGame);
             }
 
