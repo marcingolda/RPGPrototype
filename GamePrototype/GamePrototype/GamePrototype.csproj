@@ -95,6 +95,29 @@
     <Compile Include="Zmienne.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\x86\Debug\Content\Music\Alpha.wma" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\gora.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\karczmarz.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\kosci-odejdz.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\kosci-zagraj.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\kosci.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\kosci1.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\opis-1.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\plotki.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\gospoda\wyjdz.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\Start\Dalej.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\Start\poczatek-wejdz.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\Start\poczatek.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\Start\start.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\stats\Charyzma.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\stats\Inteligencja.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\stats\Kondycja.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\stats\Percepcja.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\stats\Siła Woli.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\stats\Siła.txt" />
+    <Content Include="bin\x86\Debug\Content\Text\stats\Zręczność.txt" />
+    <Content Include="bin\x86\Debug\GamePrototype.exe" />
+    <Content Include="bin\x86\Debug\GamePrototype.pdb" />
     <Content Include="Game.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -120,8 +143,60 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="bin\x86\Debug\Content\" />
+    <None Include="bin\x86\Debug\Content\background.xnb" />
+    <None Include="bin\x86\Debug\Content\CharCreator\Minus.xnb" />
+    <None Include="bin\x86\Debug\Content\CharCreator\next.xnb" />
+    <None Include="bin\x86\Debug\Content\CharCreator\nextM.xnb" />
+    <None Include="bin\x86\Debug\Content\CharCreator\nextP.xnb" />
+    <None Include="bin\x86\Debug\Content\CharCreator\Plus.xnb" />
+    <None Include="bin\x86\Debug\Content\CharCreator\ramka.xnb" />
+    <None Include="bin\x86\Debug\Content\ChoiceFont.xnb" />
+    <None Include="bin\x86\Debug\Content\Florana.xnb" />
+    <None Include="bin\x86\Debug\Content\Images\gospoda.xnb" />
+    <None Include="bin\x86\Debug\Content\MainFont.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\cart.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\cartM.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\cartP.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\equip.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\equipM.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\equipP.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\game.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\gameM.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\gameP.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\journ.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\journM.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\journP.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\map.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\mapM.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\mapP.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\menu.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\menuM.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\Buttons\menuP.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\notes.xnb" />
+    <None Include="bin\x86\Debug\Content\MainScreen\wooden.xnb" />
+    <None Include="bin\x86\Debug\Content\Music\Alpha.xnb" />
+    <None Include="bin\x86\Debug\Content\Sounds\Click.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\continue.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\continueDisabled.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\continueM.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\continueP.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\credits.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\creditsM.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\creditsP.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\exit.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\exitM.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\exitP.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\load.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\loadM.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\loadP.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\newgame.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\newgameM.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\newgameP.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\options.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\optionsM.xnb" />
+    <None Include="bin\x86\Debug\Content\TitleScreen\optionsP.xnb" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
