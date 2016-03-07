@@ -36,6 +36,13 @@ namespace GamePrototype
         CharCreator charCreator;
         MainScreen mainScreen;
 
+        Character hero;
+        public Character Hero
+        {
+            set { hero = value; }
+            get { return hero; }
+        }
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);

@@ -18,10 +18,15 @@ namespace GamePrototype.Sceny.Creator
         const int min = 3;
 
         String nazwa;
-        int wartość = 10;
+        int wartość;
+        public int Wartosc
+        {
+            set { wartość = value; }
+            get { return wartość; }
+        }
 
         static bool napisane = false; // czy zostało napisane ile zostało napisane i ramka na objaśnienie
-        static int zostalo = 10;
+        static int zostalo = 20;
         static Sprite objasnienieRamka;
         static Rectangle objasnienieRectangle;
 
@@ -35,6 +40,7 @@ namespace GamePrototype.Sceny.Creator
 
         public Stats(String name, Rectangle obramowanie, Game1 game, SpriteFont font)
         {
+            zostalo = 20;
             objasnienieRectangle = new Rectangle(1520, 0, 400, 400);
             objasnienieRamka = new Sprite(game.Content.Load<Texture2D>("CharCreator/Ramka"), objasnienieRectangle);
             objasnienieRectangle = Game1.Skaluj(objasnienieRectangle);
