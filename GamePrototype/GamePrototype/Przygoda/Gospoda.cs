@@ -37,14 +37,26 @@ namespace GamePrototype.Przygoda
         {
             actual = KosciGra;
             image = "";
-            text = "gospoda/przegrana";
             if (Zmienne.rozegraneGry < 3)
             {
-                int x = 2;
-                int y = 3;
-                if (x < y) 
-                    Update("[Przejebałeś]");
+                Random rnd = new Random();
+                int x = rnd.Next(1, 100);
+                int y = rnd.Next(1, 100);
+                Zmienne.rozegraneGry++;
+                if (x < y)
+                {
+                    text = "gospoda/przegrana";
+                    Hero.Zloto--;
+                }
+                else
+                {
+                    Hero.Zloto++;
+                    text = "gospoda/wygrana";
+                }
             }
+            else
+                text = "gospoda/przegrana";
+            Update();
         }
     }
 }
