@@ -37,13 +37,13 @@ namespace GamePrototype.Przygoda
         {
             actual = KosciGra;
             image = "";
-            text = "gospoda/kosci1";
+            text = "gospoda/przegrana";
             if (Zmienne.rozegraneGry < 3)
             {
                 int x = 2;
                 int y = 3;
                 if (x < y) 
-                    Update("Przejebałeś");
+                    Update("[Przejebałeś]");
             }
         }
     }

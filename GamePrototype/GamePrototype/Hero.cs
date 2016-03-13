@@ -16,6 +16,8 @@ namespace GamePrototype
         public static int Sila_woli;
         public static int Charyzma;
 
+        public static int Zloto;
+
         public static void NewHero(string imie, int sila, int kondycja, int zrecznosc, int percpecja, int inteligencja, int sila_woli, int charyzma)
         {
             Imie = imie;
@@ -26,6 +28,7 @@ namespace GamePrototype
             Inteligencja = inteligencja;
             Sila_woli = sila_woli;
             Charyzma = charyzma;
+            Zloto = 10;
         }
         
     }

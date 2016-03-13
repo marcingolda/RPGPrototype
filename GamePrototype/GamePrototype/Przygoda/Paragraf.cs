@@ -31,7 +31,7 @@ namespace GamePrototype.Przygoda
         protected static void Update(string extra)
         {
             text = GetText(text);
-            text = extra + "/n" + text;
+            text = text + "\n" + extra;
             textManager.GetParagraph(text, image, wybory, actual);
 
         }
