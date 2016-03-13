@@ -41,6 +41,7 @@ namespace GamePrototype.Sceny.Creator
         public Stats(String name, Rectangle obramowanie, Game1 game, SpriteFont font)
         {
             zostalo = 20;
+            wartość = 10;
             objasnienieRectangle = new Rectangle(1520, 0, 400, 400);
             objasnienieRamka = new Sprite(game.Content.Load<Texture2D>("CharCreator/Ramka"), objasnienieRectangle);
             objasnienieRectangle = Game1.Skaluj(objasnienieRectangle);
